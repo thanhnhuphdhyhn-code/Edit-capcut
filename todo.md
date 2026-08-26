@@ -1,0 +1,20 @@
+# Project TODO
+
+- [x] Xác thực cách tích hợp Piper runtime và model tiếng Việt vào APK Android.
+- [ ] Xác thực nguồn, điều khoản sử dụng và tệp model cho giọng “Lão Kim (Nam Tự Tin)”.
+- [x] Thiết lập nhận diện, theme tối và điều hướng ứng dụng.
+- [x] Tạo mô hình dữ liệu Project, SubtitleCue, VoiceSettings và ExportPreset.
+- [x] Xây dựng màn hình dự án và biên tập danh sách phụ đề.
+- [x] Thêm nhập và phân tích SRT/TXT từ bộ nhớ thiết bị.
+- [x] Thêm chỉnh sửa nội dung và mốc thời gian từng dòng phụ đề.
+- [x] Xây dựng màn hình cấu hình Piper TTS: engine, tiếng Việt, giọng, Speed, Pitch và nghe thử.
+- [x] Tích hợp runtime Piper offline và cơ chế quản lý model ONNX.
+- [x] Tạo audio từng dòng, tạo hàng loạt, hủy tác vụ và hiển thị tiến độ.
+- [x] Tính thời lượng audio và tự động tăng tốc trong ngưỡng cấu hình để tránh chồng lấn.
+- [x] Xây dựng timeline trực quan cho video, audio TTS và nhạc nền.
+- [x] Bổ sung chọn video, preview và điều chỉnh âm lượng track.
+- [x] Bổ sung xuất WAV tổng hợp và xuất MP4 theo khả năng native runtime.
+- [ ] Lưu dự án/cấu hình cục bộ và quản lý cache audio.
+- [ ] Viết kiểm thử cho parse SRT, thuật toán chống chồng lấn và trạng thái dự án.
+- [x] Tạo logo riêng và cấu hình tên/biểu tượng ứng dụng.
+- [ ] Kiểm thử giao diện, lưu checkpoint và bàn giao hướng dẫn tạo APK.
