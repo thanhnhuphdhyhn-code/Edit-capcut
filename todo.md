@@ -18,3 +18,6 @@
 - [ ] Viết kiểm thử cho parse SRT, thuật toán chống chồng lấn và trạng thái dự án.
 - [x] Tạo logo riêng và cấu hình tên/biểu tượng ứng dụng.
 - [ ] Kiểm thử giao diện, lưu checkpoint và bàn giao hướng dẫn tạo APK.
+- [x] Sửa cấu hình Gradle có khả năng gây lỗi EAS build: gỡ FFmpegKit đã ngừng phân phối, đồng bộ Sherpa-ONNX với Expo và tắt New Architecture.
+- [ ] Xác nhận EAS build Android hoàn tất sau khi xuất bản lại từ phiên bản đã sửa.
+- [ ] Khôi phục xuất WAV/MP4 bằng một engine media native tương thích sau khi bản build Android ổn định.

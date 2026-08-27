@@ -46,7 +46,8 @@ const config: ExpoConfig = {
   icon: "./assets/images/icon.png",
   scheme: env.scheme,
   userInterfaceStyle: "automatic",
-  newArchEnabled: true,
+  // Disable New Architecture temporarily while using a patched native Piper bridge on Expo SDK 54.
+  newArchEnabled: false,
   ios: {
     supportsTablet: true,
     bundleIdentifier: env.iosBundleId,
@@ -86,6 +87,7 @@ const config: ExpoConfig = {
   },
   plugins: [
     "expo-router",
+    "./plugins/with-sherpa-gradle.js",
     [
       "expo-audio",
       {
@@ -117,6 +119,9 @@ const config: ExpoConfig = {
         android: {
           buildArchs: ["armeabi-v7a", "arm64-v8a"],
           minSdkVersion: 24,
+          compileSdkVersion: 36,
+          targetSdkVersion: 36,
+          kotlinVersion: "2.0.21",
         },
       },
     ],

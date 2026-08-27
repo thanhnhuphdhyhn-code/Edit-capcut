@@ -1,0 +1,50 @@
+diff --git a/android/build.gradle b/android/build.gradle
+index 771d8edf823f06a6af41e2e9333b830814d41ab7..9a3ba5fd78ac757d56f1f40673f1a47e5f26bc90 100644
+--- a/android/build.gradle
++++ b/android/build.gradle
+@@ -8,30 +8,12 @@
+-buildscript {
+-  ext.SherpaOnnx = [
+-    kotlinVersion: "2.0.21",
+-    minSdkVersion: 24,
+-    compileSdkVersion: 36,
+-    targetSdkVersion: 36
+-  ]
+-
+-  ext.getExtOrDefault = { prop ->
+-    if (rootProject.ext.has(prop)) {
+-      return rootProject.ext.get(prop)
+-    }
+-
+-    return SherpaOnnx[prop]
+-  }
+-
+-  repositories {
+-    google()
+-    mavenCentral()
+-    maven { url 'https://plugins.gradle.org/m2/' }
+-  }
+-
+-  dependencies {
+-    classpath "com.android.tools.build:gradle:8.7.2"
+-    // noinspection DifferentKotlinGradleVersion
+-    classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:${getExtOrDefault('kotlinVersion')}"
+-    // Node Gradle plugin for running node/npx reliably from Gradle
+-    classpath "com.github.node-gradle:gradle-node-plugin:7.1.0"
+-  }
+-}
++def SherpaOnnx = [
++  minSdkVersion: 24,
++  compileSdkVersion: 36,
++  targetSdkVersion: 36,
++]
++
++def getExtOrDefault = { prop ->
++  if (rootProject.ext.has(prop)) {
++    return rootProject.ext.get(prop)
++  }
++  return SherpaOnnx[prop]
++}
+@@ -158 +140 @@
+-  implementation "com.facebook.react:react-android:0.83.0"
++  compileOnly "com.facebook.react:react-android"
