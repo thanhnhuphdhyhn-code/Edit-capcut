@@ -24,3 +24,4 @@
 - [ ] Tạo repository GitHub riêng tư và đẩy mã nguồn phiên bản đã sửa lỗi Gradle.
 - [ ] Đẩy mã nguồn vào nhánh piper-tts-viet-editor của repository GitHub đã được xác nhận.
 - [ ] Xác minh token GitHub mới có quyền ghi vào repository đích.
+- [ ] Đẩy mã nguồn vào nhánh piper-tts-viet-editor của repository Edit-capcut.
