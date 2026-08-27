@@ -21,3 +21,4 @@
 - [x] Sửa cấu hình Gradle có khả năng gây lỗi EAS build: gỡ FFmpegKit đã ngừng phân phối, đồng bộ Sherpa-ONNX với Expo và tắt New Architecture.
 - [ ] Xác nhận EAS build Android hoàn tất sau khi xuất bản lại từ phiên bản đã sửa.
 - [ ] Khôi phục xuất WAV/MP4 bằng một engine media native tương thích sau khi bản build Android ổn định.
+- [ ] Tạo repository GitHub riêng tư và đẩy mã nguồn phiên bản đã sửa lỗi Gradle.
