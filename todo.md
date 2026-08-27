@@ -22,3 +22,4 @@
 - [ ] Xác nhận EAS build Android hoàn tất sau khi xuất bản lại từ phiên bản đã sửa.
 - [ ] Khôi phục xuất WAV/MP4 bằng một engine media native tương thích sau khi bản build Android ổn định.
 - [ ] Tạo repository GitHub riêng tư và đẩy mã nguồn phiên bản đã sửa lỗi Gradle.
+- [ ] Đẩy mã nguồn vào nhánh piper-tts-viet-editor của repository GitHub đã được xác nhận.
